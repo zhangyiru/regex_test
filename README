@@ -2,4 +2,14 @@
 run compile.sh
 
 2.
-./boost_regex_fuzzer ./boost_regex_fuzzer-testcase
+（1）
+https://github.com/boostorg/regex/issues/151
+./boost_regex_fuzzer ./boost_regex_fuzzer-abort-jump
+
+（2）
+https://github.com/boostorg/regex/issues/152
+./boost_regex_fuzzer ./boost_regex_fuzzer-abort-recursion_stack
+
+（3）
+https://github.com/boostorg/regex/issues/153
+./boost_regex_fuzzer ./boost_regex_fuzzer-memleak
