@@ -1,0 +1,5 @@
+1.
+run compile.sh
+
+2.
+./boost_regex_fuzzer ./boost_regex_test
