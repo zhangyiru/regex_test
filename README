@@ -1,7 +1,6 @@
-1.
-run compile.sh
+1. run compile.sh to gain boost_regex_fuzzer
 
-2.
+2. reappear these failed fuzzer execution process
 （1）
 https://github.com/boostorg/regex/issues/151
 ./boost_regex_fuzzer ./boost_regex_fuzzer-abort-jump
